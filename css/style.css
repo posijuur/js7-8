@@ -1,0 +1,43 @@
+.wrap {
+	width: 30%;
+	padding: 10px;
+	margin: auto;
+	border: 1px solid #83CFC0
+}
+
+.lead {
+	display: none;
+}
+
+.active_p {
+	display: block;
+}
+
+.container-forms {
+	position: absolute;
+	top: 258px;
+	width: 50%;
+	padding: 10px;
+	margin: auto;
+	border: 1px solid #998080;
+	left: 25%;
+}
+
+.foms {
+	clear: both;
+	margin-bottom: 20px;
+}
+
+label { 
+	float: left;
+	margin-right: 20px;
+}
+
+.hiddenHelp {
+	display: none;
+}
+
+button {
+	clear: both;
+	float: right;
+}
