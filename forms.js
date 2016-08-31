@@ -12,4 +12,10 @@
 		var target = event.target;
 		$('.hiddenHelp').show();
 	});;
+	$('label').on('click', function(event) {
+		event.preventDefault();
+		var target = event.target;
+		$('label + div').hide();
+		$('+ div', target).show();
+	});
 })();
